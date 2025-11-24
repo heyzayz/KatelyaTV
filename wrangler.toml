@@ -6,7 +6,7 @@ pages_build_output_dir = ".vercel/output/static"
 # 默认 D1 数据库配置（用于命令行操作）
 [[d1_databases]]
 binding = "DB"
-database_name = "katelyatv-db"
+database_name = "d1"
 database_id = "65d33414-fb98-4c5c-b961-4e3d8b438ec0"
 
 # 生产环境配置
@@ -16,7 +16,7 @@ name = "katelyatv"
 # 生产环境 D1 数据库配置
 [[env.production.d1_databases]]
 binding = "DB"
-database_name = "katelyatv-db"
+database_name = "d1"
 database_id = "65d33414-fb98-4c5c-b961-4e3d8b438ec0"
 
 # 生产环境变量
@@ -24,9 +24,9 @@ database_id = "65d33414-fb98-4c5c-b961-4e3d8b438ec0"
 NEXT_PUBLIC_STORAGE_TYPE = "d1"
 NEXT_PUBLIC_SITE_NAME = "KatelyaTV"
 NEXT_PUBLIC_SITE_DESCRIPTION = "高性能影视播放平台"
-NEXTAUTH_URL = "https://tv.katelya.eu.org"
-USERNAME = "katelya"
-AUTH_PASSWORD = "ab1433223cd@"
+NEXTAUTH_URL = "https://katelyatv-2wc.pages.dev/"
+USERNAME = "admin"
+AUTH_PASSWORD = "a123123"
 IMAGE_PROXY_ENABLED = "true"
 CACHE_TTL = "3600"
 CORS_ORIGIN = "*"
@@ -45,7 +45,7 @@ name = "katelyatv-preview"
 # 预览环境 D1 数据库配置
 [[env.preview.d1_databases]]
 binding = "DB"
-database_name = "katelyatv-db"
+database_name = "d1"
 database_id = "65d33414-fb98-4c5c-b961-4e3d8b438ec0"
 
 # 预览环境变量
@@ -53,8 +53,8 @@ database_id = "65d33414-fb98-4c5c-b961-4e3d8b438ec0"
 NEXT_PUBLIC_STORAGE_TYPE = "d1"
 NEXT_PUBLIC_SITE_NAME = "KatelyaTV"
 NEXT_PUBLIC_SITE_DESCRIPTION = "高性能影视播放平台"
-NEXTAUTH_URL = "https://katelyatv.pages.dev"
-USERNAME = "katelya"
+NEXTAUTH_URL = "https://katelyatv-2wc.pages.dev/"
+USERNAME = "admin"
 AUTH_PASSWORD = "ab1433223cd@"
 IMAGE_PROXY_ENABLED = "true"
 CACHE_TTL = "3600"
